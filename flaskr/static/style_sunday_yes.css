@@ -1,0 +1,26 @@
+
+.title {
+    text-align: center;
+    color:  rgb(7, 95, 18);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+
+}
+.center {
+    box-shadow: rgba(7, 95, 18, 0.4) 5px 5px, rgba(7, 95, 18, 0.3) 10px 10px, rgba(7, 95, 18, 0.2) 15px 15px, rgba(7, 95, 18, 0.1) 20px 20px, rgba(7, 95, 18, 0.05) 25px 25px;
+    width: 50%;
+    height: 50px;
+    color: rgb(174, 255, 155);
+    background-color:  rgb(7, 95, 18);
+    margin: auto; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+  body { max-width: 960px; margin: 0 auto; background: #ffffff; }

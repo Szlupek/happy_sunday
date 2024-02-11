@@ -1,0 +1,19 @@
+<!doctype html>
+<head>
+<title>Czy handlowa</title>
+{% if 'NIE' in is_handlowa_headed %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style_sunday.css') }}">
+{% else %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style_sunday_yes.css') }}">
+{% endif %}
+</head>
+
+  <h1 class="title">{% block title %} {{is_handlowa_headed}}! {% endblock %}</h1>
+
+<body>
+  <div class="center">
+  <span >
+    Następna niedziela {{sunday}} <b>{{is_handlowa}}</b> jest niedzielą handlową.
+  </span>
+  </div>
+</body>
